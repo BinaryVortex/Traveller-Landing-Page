@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&family=Rubik+Moonrocks&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(bg.jpg);
+    background-position: center;
+    box-sizing: border-box;
+    background-size: cover;
+    padding-right: 5%;
+    padding-left: 3%;
+}
+.navbar {
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+h3 {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 5px;
+}
+span.style {
+    color: #f2ff00;
+}
+nav {
+    flex: 1;
+    padding-left: 410px;
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 8px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+nav ul li a:hover {
+    color: #f2ff00;
+}
+.btn1 {
+    background: #f2ff00;
+    background-size: 200% auto;
+    margin-left: 55px;
+    text-align: center;
+    color: #222;
+    padding: 8px 25px;
+    border: none;
+    outline: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 30px;
+    font-size: 20px;
+    box-shadow: 3px 8px 22px rgba(22,21,21.15);
+    transition: background-position .5s;
+}
+.content {
+    margin-top: 150px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+h1 {
+    font-size: 130px;
+    font-weight: 700;
+    line-height: .9em;
+}
+span.txt {
+    color: #f2ff00;
+    font-size: 100px;
+}
+.btn2 {
+    background: linear-gradient(to right, transparent 50%, #f2ff00 50%);
+    background-size: 200% auto;
+    background-position: left;
+    margin-top: 50px;
+    margin-left: 50px;
+    text-align: center;
+    padding: 15px 45px;
+    color: #fff;
+    outline: none;
+    border: 2px solid #f2ff00;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 24px;
+    cursor: pointer;
+    text-transform: uppercase;
+    box-shadow: 3px 8px 22px rgba(22,21,21.15);
+    transition: background-position .5s;
+}
+.btn2:hover {
+    background-position: right;
+    color: #1b1b1b;
+}
+.social-media {
+    margin-top: 40px;
+    margin-left: 50px;
+    text-decoration: none;
+    font-size: 25px;
+}
+.fa {
+    color: #222;
+    background-color: #f2ff00;
+    border-radius: 100px;
+    padding: 15px;
+    margin: 10px;
+}
+.fa:hover {
+    transform: scale(1.2);
+    color: #fff;
+    background: none;
+    transition: all .5s;
+}
